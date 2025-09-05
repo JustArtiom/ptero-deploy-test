@@ -22,5 +22,4 @@ jobs:
           base_path: ./dist
           clean: true
           run: |
-            npm install
             node index.js
