@@ -19,6 +19,7 @@ jobs:
           url: ${{ secrets.PTERO_URL }}
           api_key: ${{ secrets.PTERO_API_KEY }}
           server_id: ${{ secrets.PTERO_SERVER }}
+          clean: true
           run: |
             echo "Deploy started"
             node index.js
