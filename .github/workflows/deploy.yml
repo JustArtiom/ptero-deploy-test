@@ -20,7 +20,7 @@ jobs:
           api_key: ${{ secrets.PTERO_API_KEY }}
           server_id: ${{ secrets.PTERO_SERVER }}
           base_path: ./dist
-          destination_path: /home/container/test
+          destination_path: ./test
           clean: true
           run: |
             node index.js
