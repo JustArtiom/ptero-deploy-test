@@ -21,6 +21,5 @@ jobs:
           server_id: ${{ secrets.PTERO_SERVER }}
           clean: true
           run: |
-            echo "Deploy started"
+            npm install
             node index.js
-            echo "Deploy finished"
